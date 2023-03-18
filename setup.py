@@ -25,6 +25,6 @@ setup(
     version= '0.0.1',
     author='Vaibhav',
     author_email='mailvaibhavsharma06@gmail.com',
-    packages=find_packages(), #Seacches for __init__.py files in folders and adds them in package.
+    packages=find_packages(), #Searches for __init__.py files in folders and adds them in package.
     install_requires=get_requirements('requirements.txt')
 )
